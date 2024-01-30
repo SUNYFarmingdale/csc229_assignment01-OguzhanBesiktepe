@@ -32,6 +32,51 @@ package com.mycompany.csc229_assignment01;
  *
  * @author MoaathAlrajab
  */
-public class Course {
 
+// Data Members listed below from lines 39-41
+public class Course {
+    // Data members from lines 39 - 41
+    private String name;
+    private String ID;
+    private String code;
+
+    // Default constructors from lines 44 - 47
+    public Course() {
+        this.name = "";
+        this.ID = "";
+        this.code = "";
+    }
+
+    // Overloaded constructor from lines 51 - 54
+    public Course(String name, String ID, String code) {
+        this.name = name;
+        this.ID = ID;
+        this.code = code;
+    }
+
+    // Getters and setters (Created Via Right Click)
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getID() {
+        return ID;
+    }
+
+    public void setID(String ID) {
+        this.ID = ID;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
 }
+
